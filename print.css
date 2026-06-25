@@ -1,0 +1,9 @@
+@media print {
+    button, a {
+        display: none !important;
+    }
+
+    .card {
+        page-break-inside: avoid;
+    }
+}
